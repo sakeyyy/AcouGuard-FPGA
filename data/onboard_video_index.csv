@@ -1,0 +1,12 @@
+start_s,end_s,stage,visible_evidence,evidence_type
+0,18,hardware_overview,board array lcd and motor driver introduction,edited_team_video_not_statistical_benchmark
+24,38,startup,physical startup and LCD display,edited_team_video_not_statistical_benchmark
+40,56,direction,screen direction changes and motor demonstration,edited_team_video_not_statistical_benchmark
+60,86,web,received and filtered waveform display,edited_team_video_not_statistical_benchmark
+98,98,dog_bark,dog icon and label,edited_team_video_not_statistical_benchmark
+106,106,road_vehicle,vehicle icon,edited_team_video_not_statistical_benchmark
+112,112,bicycle_bell,bicycle icon and label,edited_team_video_not_statistical_benchmark
+118,118,car_horn,horn icon and label,edited_team_video_not_statistical_benchmark
+125,151,name_enrollment,name and other templates guided states,edited_team_video_not_statistical_benchmark
+154,160,name_target,CALL YOU and motor annotation,edited_team_video_not_statistical_benchmark
+167,172,name_negative,LISTEN and non-target subtitle,edited_team_video_not_statistical_benchmark

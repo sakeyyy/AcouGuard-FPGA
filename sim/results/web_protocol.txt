@@ -1,0 +1,1 @@
+{"synthetic_only": true, "fragmentation": true, "classification_demultiplexing": true, "crc_recovery": true, "four_channel_parser": true, "dsp_processing": true}

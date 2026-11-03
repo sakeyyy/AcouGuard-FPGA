@@ -1,0 +1,117 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_lcd_test_0_0",
+    "cell_name": "lcd_test_0",
+    "component_reference": "xilinx.com:module_ref:lcd_test:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../test.gen/sources_1/bd/design_1/ip/design_1_lcd_test_0_0",
+    "parameters": {
+      "component_parameters": {
+        "FRONT_BACK_MM": [ { "value": "60", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "LEFT_RIGHT_MM": [ { "value": "60", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "HP_ENABLE": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "HP_SHIFT": [ { "value": "5", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "FRAME_LOG2": [ { "value": "10", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "GAIN_FRONT_Q8": [ { "value": "256", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "GAIN_LEFT_Q8": [ { "value": "256", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "GAIN_RIGHT_Q8": [ { "value": "256", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "GAIN_BACK_Q8": [ { "value": "256", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "SOUND_ON_LEVEL": [ { "value": "0x0023", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "SOUND_OFF_LEVEL": [ { "value": "0x0011", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "MIN_Q": [ { "value": "4096", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "MIN_VECTOR_Q2": [ { "value": "2", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CONFIRM_BLOCKS": [ { "value": "2", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "QUIET_BLOCKS": [ { "value": "6", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "UNSURE_BLOCKS": [ { "value": "4", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CHECK_AMBIG": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "FLIP_FB": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "FLIP_LR": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "ENABLE_MOTORS": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "design_1_lcd_test_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "FRONT_BACK_MM": [ { "value": "60", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "LEFT_RIGHT_MM": [ { "value": "60", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "HP_ENABLE": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "HP_SHIFT": [ { "value": "5", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "FRAME_LOG2": [ { "value": "10", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "GAIN_FRONT_Q8": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "GAIN_LEFT_Q8": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "GAIN_RIGHT_Q8": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "GAIN_BACK_Q8": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "SOUND_ON_LEVEL": [ { "value": "0x0023", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "SOUND_OFF_LEVEL": [ { "value": "0x0011", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "MIN_Q": [ { "value": "4096", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "MIN_VECTOR_Q2": [ { "value": "2", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CONFIRM_BLOCKS": [ { "value": "2", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "QUIET_BLOCKS": [ { "value": "6", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "UNSURE_BLOCKS": [ { "value": "4", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CHECK_AMBIG": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "FLIP_FB": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "FLIP_LR": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "ENABLE_MOTORS": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "DEVICE": [ { "value": "xc7z020", "resolve_type": "generated", "usage": "all" } ],
+        "PACKAGE": [ { "value": "clg484", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "", "resolve_type": "generated", "usage": "all" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../test.gen/sources_1/bd/design_1/ip/design_1_lcd_test_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2026.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk_50m": [ { "direction": "in" } ],
+        "ps_control": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "mic_front_sd": [ { "direction": "in" } ],
+        "mic_left_sd": [ { "direction": "in" } ],
+        "mic_right_sd": [ { "direction": "in" } ],
+        "mic_back_sd": [ { "direction": "in" } ],
+        "mic_sck": [ { "direction": "out", "driver_value": "0" } ],
+        "mic_ws": [ { "direction": "out", "driver_value": "0" } ],
+        "lcd_cs": [ { "direction": "out", "driver_value": "1" } ],
+        "lcd_rst": [ { "direction": "out", "driver_value": "0" } ],
+        "lcd_dc": [ { "direction": "out", "driver_value": "0" } ],
+        "lcd_mosi": [ { "direction": "out", "driver_value": "0" } ],
+        "lcd_sck": [ { "direction": "out", "driver_value": "0" } ],
+        "motor_pwm": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "audio_frame_valid": [ { "direction": "out", "driver_value": "0" } ],
+        "audio_frame_pcm": [ { "direction": "out", "size_left": "95", "size_right": "0", "driver_value": "0" } ],
+        "audio_direction": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "audio_direction_valid": [ { "direction": "out" } ]
+      },
+      "interfaces": {
+        "lcd_rst": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "master",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "lcd_rst" } ]
+          }
+        }
+      }
+    }
+  },
+  "checksum": "14d2f08c"
+}

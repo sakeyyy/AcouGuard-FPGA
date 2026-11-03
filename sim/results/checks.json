@@ -1,0 +1,54 @@
+{
+  "source_and_artifacts": {
+    "exit_code": 0,
+    "stdout": "{\"vivado_references\": 7, \"external_references\": 0, \"xsa_bit_init_match\": true, \"frozen_model_match\": true, \"manifest_files_checked\": 0}",
+    "stderr": ""
+  },
+  "web_protocol": {
+    "exit_code": 0,
+    "stdout": "{\"synthetic_only\": true, \"fragmentation\": true, \"classification_demultiplexing\": true, \"crc_recovery\": true, \"four_channel_parser\": true, \"dsp_processing\": true}",
+    "stderr": ""
+  },
+  "model_parameter_parity": {
+    "exit_code": 0,
+    "stdout": "{\"compared_arrays\": 9, \"equal_to_frozen_model\": true, \"different_arrays\": []}",
+    "stderr": ""
+  },
+  "training_inputs": {
+    "exit_code": 0,
+    "stdout": "DATA CHECK {\"records\": 14081, \"feature_size\": 160, \"windows\": {\"eval\": 30264, \"train\": 41104, \"val\": 11147}, \"source_split_disjoint\": true}",
+    "stderr": ""
+  },
+  "vitis_build_inputs": {
+    "exit_code": 0,
+    "stdout": "{\"xsa\": \"D:\\\\FPGA\\\\zhi_er_sound_assist\\\\board\\\\artifacts\\\\audio_platform.xsa\", \"source_files\": 30, \"operation\": \"check only; no Vitis invoked\"}",
+    "stderr": ""
+  },
+  "previous_web_http_check": {
+    "http_assets": [
+      "/",
+      "/app.js",
+      "/style.css"
+    ],
+    "scope": "local HTTP resource and protocol check, not board retest"
+  },
+  "exported_c": {
+    "float32_roundtrip": true,
+    "host_gcc_syntax_only_exit_code": 0,
+    "full_arm_app_rebuilt_in_organization": false
+  },
+  "onboard_evidence": {
+    "team_provided_video": true,
+    "organization_computer_reflashed": false,
+    "statistical_accuracy_available": false
+  },
+  "vivado_reopen": {
+    "passed": true,
+    "scope": "relocated project reopened; BD loaded; RTL syntax check passed",
+    "bd_validation_rerun": false,
+    "bd_validation_note": "Vivado used the existing validation state; not a new forced connectivity check",
+    "full_implementation_rerun": false,
+    "environment_note": "User TclStore catalog required installation-provided simulator Tcl scripts loaded in this check session only"
+  },
+  "python_syntax": "passed"
+}

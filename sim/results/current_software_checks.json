@@ -1,0 +1,83 @@
+{
+  "utc": "2026-11-03T08:20:54.386578+00:00",
+  "hardware_tested": false,
+  "evidence": "software_checks",
+  "commands": [
+    {
+      "command": [
+        "G:\\综合设计与实践A\\audio_sound_recognition\\.venv\\Scripts\\python.exe",
+        "sim/test_web_protocol.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"synthetic_only\": true, \"fragmentation\": true, \"classification_demultiplexing\": true, \"crc_recovery\": true, \"four_channel_parser\": true, \"dsp_processing\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "G:\\综合设计与实践A\\audio_sound_recognition\\.venv\\Scripts\\python.exe",
+        "build/export_model.py",
+        "--output",
+        "build/output/unused",
+        "--verify-only"
+      ],
+      "returncode": 0,
+      "stdout": "{\"compared_arrays\": 9, \"equal_to_frozen_model\": true, \"different_arrays\": []}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "G:\\综合设计与实践A\\audio_sound_recognition\\.venv\\Scripts\\python.exe",
+        "build/rebuild_vitis.py",
+        "--check-only"
+      ],
+      "returncode": 0,
+      "stdout": "{\"xsa\": \"G:\\\\\\u7efc\\u5408\\u8bbe\\u8ba1\\u4e0e\\u5b9e\\u8df5A\\\\audio_sound_recognition\\\\deployment\\\\zhi_er_sound_assist\\\\board\\\\artifacts\\\\audio_platform.xsa\", \"source_files\": 30, \"operation\": \"check only; no Vitis invoked\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "G:\\综合设计与实践A\\audio_sound_recognition\\.venv\\Scripts\\python.exe",
+        "G:\\综合设计与实践A\\audio_sound_recognition\\deployment\\zhi_er_sound_assist\\skill\\pynq-stream-validation\\scripts\\stream_skill.py",
+        "contract",
+        "G:\\综合设计与实践A\\audio_sound_recognition\\deployment\\zhi_er_sound_assist\\skill\\pynq-stream-validation\\examples\\project_audio.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"name\": \"hw36-four-channel-pcm-layout\",\n  \"shape\": [\n    12208,\n    4\n  ],\n  \"dtype\": \"int32\",\n  \"nbytes\": 195328,\n  \"mode\": \"receive\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "xsa_hwh_members": [
+    "design_1.hwh",
+    "design_1_axi_smc_0.hwh"
+  ],
+  "dma_hwh_members": [
+    "design_1.hwh"
+  ],
+  "actual_hwh_dma_metadata": [
+    {
+      "name": "/axi_dma_0",
+      "vlnv": "xilinx.com:ip:axi_dma:7.1",
+      "parameters": {
+        "C_INCLUDE_S2MM": "1",
+        "C_INCLUDE_SG": "0",
+        "C_SG_LENGTH_WIDTH": "23",
+        "C_S_AXIS_S2MM_TDATA_WIDTH": "32"
+      }
+    }
+  ],
+  "actual_xsa_pair_preflight": {
+    "name": "hw36-four-channel-pcm-layout",
+    "shape": [
+      12208,
+      4
+    ],
+    "dtype": "int32",
+    "nbytes": 195328,
+    "mode": "receive",
+    "bit_sha256": "a7e66e6add86f39ae01b3a27b508b951ff643b777606a56d5841b7d24a2fc4dc",
+    "hwh_sha256": "52b415b211034dddfa435519ad97aa014242fbe627276774ac20cefc88b26baf",
+    "dma_ip": "axi_dma_0",
+    "evidence": "offline_metadata_check"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "evidence": "offline_software_regression",
+  "hardware_tested": false,
+  "tests": 9,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "measurement_script_sha256": "3e8fb43851d28ccc617feb3f8383a07d3506a160e435ebcdb58bfc183b9fbee1"
+}

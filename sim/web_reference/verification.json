@@ -1,0 +1,35 @@
+{
+  "on_board_tested": false,
+  "fragmented_pcm_text_and_error_demultiplexing": true,
+  "terminal_error_forwarded_without_following_packet": true,
+  "server_caches_latest_classification": true,
+  "actual_c_display_branch": {
+    "input_samples": 16000,
+    "display_samples": 4000,
+    "packets": 16,
+    "crc_errors": 0,
+    "source_sample_unchanged": true,
+    "only_first_packet_discontinuous": true,
+    "bytes_including_text": 8529
+  },
+  "arm_application_compiled_and_linked_with_user_BSP": true,
+  "recognition_core_objects_reused_unchanged": true,
+  "browser_test": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "classification_and_waveform_displayed": true,
+      "no_horizontal_overflow": true,
+      "js_errors": [],
+      "synthetic_fixture_only": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "classification_and_waveform_displayed": true,
+      "no_horizontal_overflow": true,
+      "js_errors": [],
+      "synthetic_fixture_only": true
+    }
+  ]
+}

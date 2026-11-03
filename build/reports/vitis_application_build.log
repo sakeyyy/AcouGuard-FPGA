@@ -1,0 +1,41 @@
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\FPGA\audio_ps_ws\hearing_mlp\src -b d:\FPGA\audio_ps_ws\hearing_mlp\build
+[INFO]: Starting Application build process
+[INFO]: Building Application
+[1/15] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/FPGA/audio_p
+s_ws/audio_platform/export/audio_platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -ID:/FPGA/audio_p
+s_ws/audio_platform/export/audio_platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O
+2  -g3     -U__clang__  
+
+Linker Flags:       -Wl,-T -Wl,"D:/FPGA/audio_ps_ws/hearing_mlp/src/lscript.ld" -L"D:/FPGA/audio_ps_
+ws/hearing_mlp/src/" -L"D:/FPGA/audio_ps_ws/audio_platform/export/audio_platform/sw/standalone_ps7_c
+
+ortexa9_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lxil,-lgcc,-lc,-lm -Wl,--end-gro
+
+up
+
+
+===========================================
+[2/15] Building C object CMakeFiles/hearing_mlp.elf.dir/capture_audio.c.obj
+[3/15] Building C object CMakeFiles/hearing_mlp.elf.dir/audio_decision.c.obj
+[4/15] Building C object CMakeFiles/hearing_mlp.elf.dir/screen_control.c.obj
+[5/15] Building C object CMakeFiles/hearing_mlp.elf.dir/audio_resample.c.obj
+[6/15] Building C object CMakeFiles/hearing_mlp.elf.dir/audio_pipeline.c.obj
+[7/15] Building C object CMakeFiles/hearing_mlp.elf.dir/audio_mlp.c.obj
+[8/15] Building C object CMakeFiles/hearing_mlp.elf.dir/name_key.c.obj
+[9/15] Building C object CMakeFiles/hearing_mlp.elf.dir/wave_stream.c.obj
+[10/15] Building C object CMakeFiles/hearing_mlp.elf.dir/model_data.c.obj
+[11/15] Building C object CMakeFiles/hearing_mlp.elf.dir/wave_uart.c.obj
+[12/15] Building C object CMakeFiles/hearing_mlp.elf.dir/kiss_fft.c.obj
+D:/FPGA/audio_ps_ws/hearing_mlp/src/kiss_fft.c: In function 'kiss_fft_alloc':
+D:/FPGA/audio_ps_ws/hearing_mlp/src/kiss_fft.c:343:14: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  343 |     if (nfft >= (SIZE_MAX - 2*sizeof(struct kiss_fft_state))/sizeof(kiss_fft_cpx))
+      |              ^~
+[13/15] Building C object CMakeFiles/hearing_mlp.elf.dir/main.c.obj
+[14/15] Building C object CMakeFiles/hearing_mlp.elf.dir/name_call.c.obj
+[15/15] Linking C executable hearing_mlp.elf
+   text	   data	    bss	    dec	    hex	filename
+
+ 272775	   2160	3004592	3279527	 320aa7	hearing_mlp.elf
+

@@ -1,0 +1,1 @@
+{"schema_version":1,"name":"two-channel-sensor-capture","mode":"receive","dtype":"int16","valid_bits":16,"channels":2,"channel_order":["sensor_a","sensor_b"],"frames":128,"stream_width_bits":32,"dma_length_width":14,"dma_alignment":64,"bitfile":"capture.bit","hwh":"capture.hwh","dma_ip":"subsystem/axi_dma_0","register_checks":[]}

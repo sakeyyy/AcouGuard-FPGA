@@ -1,0 +1,42 @@
+{
+  "evidence": "implementation_report_not_board_measurement",
+  "resources": {
+    "lut": {
+      "used": 8419.0,
+      "available": 53200.0,
+      "percent": 15.83
+    },
+    "ff": {
+      "used": 4301.0,
+      "available": 106400.0,
+      "percent": 4.04
+    },
+    "bram": {
+      "used": 26.5,
+      "available": 140.0,
+      "percent": 18.93
+    },
+    "dsp": {
+      "used": 25.0,
+      "available": 220.0,
+      "percent": 11.36
+    }
+  },
+  "timing": {
+    "wns_ns": 0.769,
+    "tns_ns": 0.0,
+    "whs_ns": 0.044,
+    "ths_ns": 0.0,
+    "wpws_ns": 8.87,
+    "tpws_ns": 0.0
+  },
+  "constraint_warnings": {
+    "no_input_delay": 4,
+    "no_output_delay": 11,
+    "unconstrained_internal_endpoints": 0
+  },
+  "source_sha256": {
+    "utilization": "794b6b514f84dbfedf722cb77746807db43633604d92ea43a4ed5602df81ea64",
+    "timing": "6387f09fdd5264cf78bcae7cf3caec1d0be87de628f6d559681528a629335283"
+  }
+}

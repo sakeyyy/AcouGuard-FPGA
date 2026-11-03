@@ -1,0 +1,55 @@
+{
+  "data": {
+    "records": 14081,
+    "feature_size": 160,
+    "windows": {
+      "eval": 30264,
+      "train": 41104,
+      "val": 11147
+    },
+    "source_split_disjoint": true
+  },
+  "numeric_feature_arrays_unchanged": true,
+  "sampled_raw_feature_checks": [
+    {
+      "role": "base",
+      "split": "train",
+      "max_error": 4.76837158203125e-07
+    },
+    {
+      "role": "base",
+      "split": "val",
+      "max_error": 4.76837158203125e-07
+    },
+    {
+      "role": "base",
+      "split": "eval",
+      "max_error": 9.5367431640625e-07
+    },
+    {
+      "role": "ordinary_impact",
+      "max_error": 4.76837158203125e-07
+    },
+    {
+      "role": "device_augmentation",
+      "max_error": 4.76837158203125e-07
+    }
+  ],
+  "core_feature_functions_ast_unchanged": true,
+  "validation_helpers_ast_unchanged": true,
+  "legacy_project_dependencies_removed": true,
+  "core_candidate_functions_ast_unchanged": [
+    "hidden",
+    "scores_for",
+    "objective",
+    "calibrate",
+    "unpack",
+    "loss",
+    "full_scores",
+    "predictions",
+    "metrics"
+  ],
+  "threshold_reproduction_completed": true,
+  "reproduced_npz_max_error": 0.0,
+  "full_weight_training_rerun": false
+}

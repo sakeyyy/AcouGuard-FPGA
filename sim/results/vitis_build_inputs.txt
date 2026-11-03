@@ -1,0 +1,1 @@
+{"xsa": "D:\\FPGA\\zhi_er_sound_assist\\board\\artifacts\\audio_platform.xsa", "source_files": 30, "operation": "check only; no Vitis invoked"}

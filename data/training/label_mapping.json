@@ -1,0 +1,154 @@
+{
+  "classes": [
+    "background",
+    "bicycle_bell",
+    "car_horn",
+    "construction_tool",
+    "dog_bark",
+    "human_shout",
+    "impact_emergency",
+    "road_vehicle",
+    "siren_alarm"
+  ],
+  "mapping": {
+    "bicycle_bell": [
+      "Bicycle_bell"
+    ],
+    "car_horn": [
+      "Vehicle_horn_and_car_horn_and_honking"
+    ],
+    "construction_tool": [
+      "Drill",
+      "Hammer",
+      "Power_tool",
+      "Sawing",
+      "Tools"
+    ],
+    "dog_bark": [
+      "Bark"
+    ],
+    "human_shout": [
+      "Shout",
+      "Screaming",
+      "Yell"
+    ],
+    "impact_emergency": [
+      "Explosion",
+      "Gunshot_and_gunfire",
+      "Shatter",
+      "Boom",
+      "Fireworks"
+    ],
+    "road_vehicle": [
+      "Motor_vehicle_(road)",
+      "Car",
+      "Car_passing_by",
+      "Bus",
+      "Truck",
+      "Motorcycle",
+      "Engine",
+      "Engine_starting",
+      "Accelerating_and_revving_and_vroom",
+      "Idling",
+      "Traffic_noise_and_roadway_noise",
+      "Race_car_and_auto_racing"
+    ],
+    "siren_alarm": [
+      "Siren",
+      "Alarm"
+    ]
+  },
+  "priority": [
+    "car_horn",
+    "bicycle_bell",
+    "siren_alarm",
+    "human_shout",
+    "dog_bark",
+    "impact_emergency",
+    "construction_tool",
+    "road_vehicle"
+  ],
+  "background_labels": [
+    "Applause",
+    "Bird",
+    "Bird_vocalization_and_bird_call_and_bird_song",
+    "Breathing",
+    "Cat",
+    "Chatter",
+    "Child_speech_and_kid_speaking",
+    "Chirp_and_tweet",
+    "Clapping",
+    "Clock",
+    "Computer_keyboard",
+    "Conversation",
+    "Cough",
+    "Cricket",
+    "Dishes_and_pots_and_pans",
+    "Domestic_sounds_and_home_sounds",
+    "Door",
+    "Female_speech_and_woman_speaking",
+    "Guitar",
+    "Insect",
+    "Knock",
+    "Laughter",
+    "Male_speech_and_man_speaking",
+    "Mechanical_fan",
+    "Meow",
+    "Music",
+    "Musical_instrument",
+    "Ocean",
+    "Piano",
+    "Pour",
+    "Rain",
+    "Rustle",
+    "Speech",
+    "Stream",
+    "Tick-tock",
+    "Typing",
+    "Walk_and_footsteps",
+    "Water",
+    "Waves_and_surf",
+    "Whispering",
+    "Wind",
+    "Writing",
+    "Zipper_(clothing)"
+  ],
+  "counts": {
+    "train": {
+      "background": 2500,
+      "bicycle_bell": 59,
+      "car_horn": 95,
+      "construction_tool": 710,
+      "dog_bark": 351,
+      "human_shout": 373,
+      "impact_emergency": 1320,
+      "road_vehicle": 1496,
+      "siren_alarm": 1023
+    },
+    "val": {
+      "background": 600,
+      "bicycle_bell": 14,
+      "car_horn": 20,
+      "construction_tool": 73,
+      "dog_bark": 62,
+      "human_shout": 68,
+      "impact_emergency": 210,
+      "road_vehicle": 195,
+      "siren_alarm": 69
+    },
+    "eval": {
+      "background": 1200,
+      "bicycle_bell": 56,
+      "car_horn": 68,
+      "construction_tool": 214,
+      "dog_bark": 118,
+      "human_shout": 279,
+      "impact_emergency": 335,
+      "road_vehicle": 623,
+      "siren_alarm": 460
+    }
+  },
+  "total": 12591,
+  "source": "https://zenodo.org/records/4060432",
+  "note": "Original class mapping JSON was not provided; this reconstruction is explicit. Official train/val/eval splits retained."
+}

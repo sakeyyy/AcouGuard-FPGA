@@ -1,0 +1,14 @@
+{
+  "source_original_name": "2f31749ab102d55f43d11a643583c16a.mp4",
+  "archived_path": "board/evidence/onboard_demo.mp4",
+  "duration_s": 178.33,
+  "width": 960,
+  "height": 544,
+  "fps": 30,
+  "audio": "AAC mono 44100 Hz",
+  "review": "timestamped frames and visible subtitles; no automatic speech transcription",
+  "team_reports_on_board_tested": true,
+  "reviewer_reflashed_hardware": false,
+  "quantitative_accuracy_measured": false,
+  "sha256": "f5ba3f70820a943e5b2f45708db3046b742418bf3b365b6a9296fe2203152298"
+}

@@ -1,0 +1,4 @@
+domain_path: D:/FPGA/audio_ps_ws/audio_platform/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: D:\vivado\2026.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

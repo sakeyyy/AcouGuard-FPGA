@@ -1,0 +1,29 @@
+{
+  "evidence": "rtl_simulation_not_board_test",
+  "passed": true,
+  "utc": "2026-11-03T08:22:51.308309+00:00",
+  "source_sha256": "d78130f8a8fe907c85a455493af80a579415a7d004789d33fc6e8e068553ffd6",
+  "testbench_sha256": "141a7e91e4ade3fc91236ef23df9f03a342940c41fb9074252e3e6b1f950a231",
+  "cases": [
+    {
+      "frames_per_packet": 17,
+      "channels": 4,
+      "packets": 3,
+      "fifo_depth": 8
+    },
+    {
+      "frames_per_packet": 12208,
+      "channels": 4,
+      "packets": 2,
+      "fifo_depth": 4096
+    }
+  ],
+  "packetizer_passed": true,
+  "case_output": [
+    "CASE_PASS frames=17 packets=3 words=204 cycles=906 overflow_case=1",
+    "CASE_PASS frames=12208 packets=2 words=97664 cycles=415083 overflow_case=0"
+  ],
+  "banner_passed": true,
+  "banner_source_sha256": "37707226c2fda3ece19c66d169edb2d6f241b2f13ada2128c159ab92c8341032",
+  "banner_test_sha256": "a50a14e37c4e17b689074018cfdaf6563d7363b232ec7818ce99c5e916c46f17"
+}

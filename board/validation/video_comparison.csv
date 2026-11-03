@@ -1,0 +1,11 @@
+case_id,function,start_s,end_s,reference,observed,evidence,reference_source,basis,notes
+V01,startup,24,38,lcd_running,lcd_running,board/evidence/onboard_demo.mp4,board/README.md,video_manual_observation,Startup screen visible; boot duration not measured
+V02,direction_haptics,40,56,direction_changes_with_source,direction_changes_with_source,board/evidence/frames/frame_043s.jpg,report/onboard_test_record.md,video_manual_observation,Video shows direction changes and annotates motor response; no angle or motor-current trace
+V03,web_waveform,60,86,received_and_filtered_waveforms,received_and_filtered_waveforms,board/evidence/frames/frame_066s.jpg,README.md,video_manual_observation,Visible waveforms and controls; no paired full-rate PCM reference
+V04,classification_dog,98,98,dog_bark,dog_bark,board/evidence/frames/frame_098s.jpg,report/onboard_test_record.md,video_manual_observation,Stimulus identified by video subtitle; LCD dog label visible
+V05,classification_vehicle,106,106,road_vehicle,road_vehicle,board/evidence/frames/frame_106s.jpg,report/onboard_test_record.md,video_manual_observation,Stimulus identified by video subtitle; vehicle icon visible
+V06,classification_bell,112,112,bicycle_bell,bicycle_bell,board/evidence/frames/frame_112s.jpg,report/onboard_test_record.md,video_manual_observation,Label/icon visible; original playback file not provided
+V07,classification_horn,118,118,car_horn,car_horn,board/evidence/frames/frame_118s.jpg,report/onboard_test_record.md,video_manual_observation,Stimulus subtitle and horn label/icon visible
+V08,name_enrollment,125,151,guided_positive_negative_enrollment,guided_positive_negative_enrollment,board/evidence/onboard_demo.mp4,board/README.md,video_manual_observation,Multiple enrollment states visible; continuous serial enrollment log not supplied
+V09,target_name,154,160,call_you_alert,call_you_alert,board/evidence/frames/frame_158s.jpg,report/onboard_test_record.md,video_manual_observation,Target Li Ming indicated in subtitles; CALL YOU visible; motor response annotated
+V10,other_name,167,172,listen_without_new_alert,listen_without_new_alert,board/evidence/onboard_demo.mp4,report/onboard_test_record.md,video_manual_observation,Other name Guan Yu indicated in subtitles; LISTEN visible; no vibration annotation is qualitative

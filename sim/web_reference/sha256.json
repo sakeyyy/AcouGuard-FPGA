@@ -1,0 +1,18 @@
+{
+  "server.py": "29e986fc2ca54257ff45dd9cef7ccfadbf3c252f0ac24377a3e237acdc56212c",
+  "protocol.py": "8c6f4fb1badc7c269c94f63494566bb5a2a87228918b2993bc8f363292231982",
+  "board_text.py": "714e5aec82c918bd8e65ee8d82d224178a1229862fdd035969c046541634f400",
+  "dsp.py": "b494bc357b1db0d4d7c6e6ba54a8feb9804f36f21938162ce2cd7e19a6842712",
+  "index.html": "7a05c45f1ed3bf9d771d71e1eecd38fd440fb0bd8411cda0d0ef9109bc7b0e32",
+  "app.js": "1c9c4ba1f26ecb000d61c060baf9ec807ea75921edb8d4640de0fb6618f82ca8",
+  "style.css": "4a86eefcd9fdbb43254d5f2f2243414381784e23809a40194f007601bcc093cf",
+  "requirements.txt": "bb452dddf8c318ca1463ddd51b25f244bda36ceb268590d8a8ff73f8c80e6477",
+  "board/main.c": "22a7509cbbbce89370136063ec1e4bb582957a2f4c986576c8d308b50608926d",
+  "board/wave_stream.c": "75502f8736eb1798e7949ef49b2ce1e6b9554e7db284d80a6de2e049d3c71f04",
+  "board/wave_uart.c": "24ae4cd7853eef987f1f8853b682cb7bc59fac382d1e091a93c895236e9f90cc",
+  "board/wave_stream.h": "7a80ffe23ab5211e2254578c22f79ab5fec7749c6594c1f210da19a631ec9ede",
+  "board/wave_uart.h": "ff8ae048729fab8c61957eee6b2d231e9705ace6c7d3a3086e959f6de2ef8367",
+  "board/main.txt": "22a7509cbbbce89370136063ec1e4bb582957a2f4c986576c8d308b50608926d",
+  "接入步骤.txt": "283657deb6040daca94d45311909b447becd965252ebc329a5b5cb6e08946048",
+  "verification/verification.json": "591f0f6ccbb23d9defff1798ed3e8de841e89763d56faaba71c8dc7678a9abf6"
+}

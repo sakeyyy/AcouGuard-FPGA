@@ -1,0 +1,71 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Tue Nov  3 10:30:43 2026
+| Host         : LAPTOP-JQ91U600 running 64-bit major release  (build 9200)
+| Command      : report_ip_status
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 10 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name                     | Status                    | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|                                   |                           |                     | Log       |                    | Version |               | License    |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_dma_0_0              | Up-to-date                | No changes required |  *(1)     | AXI Direct Memory  | 7.1     | 7.1 (Rev. 38) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           | Access             | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 38)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_gpio_0_0             | Up-to-date                | No changes required |  *(2)     | AXI GPIO           | 2.0     | 2.0 (Rev. 38) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 38)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_mem_intercon_0       | Up-to-date (discontinued) | No changes required |  *(3)     | AXI Interconnect   | 2.1     | 2.1 (Rev. 39) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 39)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_smc_0                | Up-to-date                | No changes required |  *(4)     | AXI SmartConnect   | 1.0     | 1.0 (Rev. 29) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 29)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_four_mic_dma_capture_0_0 | Up-to-date                | No changes required | Change    | four_mic_dma_captu | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z020clg484-2      |
+|                                   |                           |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     | available |                    | 1)      |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_lcd_test_0_0             | Up-to-date                | No changes required | Change    | lcd_test_v1_0      | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z020clg484-2      |
+|                                   |                           |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     | available |                    | 1)      |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_proc_sys_reset_0_0       | Up-to-date                | No changes required |  *(5)     | Processor System   | 5.0     | 5.0 (Rev. 17) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 17)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_processing_system7_0_0   | Up-to-date                | No changes required |  *(6)     | ZYNQ7 Processing   | 5.5     | 5.5 (Rev. 9)  | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           | System             | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 9)      |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_xlconstant_0_0           | Up-to-date (discontinued) | No changes required |  *(7)     | Constant           | 1.1     | 1.1 (Rev. 11) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 11)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_xlconstant_1_0           | Up-to-date (discontinued) | No changes required |  *(8)     | Constant           | 1.1     | 1.1 (Rev. 11) | Included   | xc7z020clg484-2      |
+|                                   |                           |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |                           |                     |           |                    | 11)     |               |            |                      |
++-----------------------------------+---------------------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/axi_dma_v7_1/doc/axi_dma_v7_1_changelog.txt
+*(2) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/axi_gpio_v2_0/doc/axi_gpio_v2_0_changelog.txt
+*(3) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(4) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/smartconnect_v1_0/doc/smartconnect_v1_0_changelog.txt
+*(5) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(6) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/processing_system7_v5_5/doc/processing_system7_v5_5_changelog.txt
+*(7) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/xlconstant_v1_1/doc/xlconstant_v1_1_changelog.txt
+*(8) d:/AppGallery/Xilinx/2026.1/Vivado/data/ip/xilinx/xlconstant_v1_1/doc/xlconstant_v1_1_changelog.txt
+
+

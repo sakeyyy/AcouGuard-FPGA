@@ -1,0 +1,1 @@
+{"schema_version":1,"name":"integer-vector-loopback","mode":"loopback","dtype":"int32","valid_bits":32,"channels":1,"channel_order":["value"],"frames":256,"stream_width_bits":32,"dma_length_width":14,"dma_alignment":64,"bitfile":"loopback.bit","hwh":"loopback.hwh","dma_ip":"axi_dma_0","register_checks":[]}

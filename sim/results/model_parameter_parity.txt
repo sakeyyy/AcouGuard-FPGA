@@ -1,0 +1,1 @@
+{"compared_arrays": 9, "equal_to_frozen_model": true, "different_arrays": []}

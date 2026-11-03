@@ -1,0 +1,9 @@
+{
+  "evidence": "software_mock_not_pynq_hardware",
+  "tests": 13,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "hardware_tested": false,
+  "runtime_sha256": "27ab730ee5bc4f987f9aec2e723fa795fec3e80ed84035c696391e03044b1eec"
+}
